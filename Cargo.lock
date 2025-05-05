@@ -302,6 +302,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "cranelift-reader"
+version = "0.119.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "662d5ba02a7a1e204a0b6e1071bb5082142c58ebf04b54a8bc4fc8b38ca4680c"
+dependencies = [
+ "anyhow",
+ "cranelift-codegen",
+ "smallvec",
+ "target-lexicon",
+]
+
+[[package]]
 name = "cranelift-srcgen"
 version = "0.119.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -367,6 +379,7 @@ dependencies = [
  "anyhow",
  "clap",
  "cranelift",
+ "cranelift-reader",
  "lalrpop-util",
  "target-lexicon",
 ]
