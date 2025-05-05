@@ -1,0 +1,17 @@
+name = "hmt-backend-native"
+homepage = "https://hummanta.github.io/hmt-backend-native"
+repository = "https://github.com/hummanta/hmt-backend-native"
+language = "*"
+kind = "backend"
+description = "Compile Cranelift IR into native machine code by auto-detecting the host architecture"
+targets = [
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu",
+    "x86_64-apple-darwin",
+    "aarch64-apple-darwin",
+    "x86_64-pc-windows-msvc",
+]
+latest = "v0.1.0"
+
+[releases]
+"v0.1.0" = "release-v0.1.0.toml"
