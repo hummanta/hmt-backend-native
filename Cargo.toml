@@ -1,7 +1,7 @@
 [package]
 name = "hmt-backend-native"
 description = "Compile Cranelift IR into native machine code by auto-detecting the host architecture"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
