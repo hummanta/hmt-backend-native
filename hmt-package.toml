@@ -2,7 +2,6 @@ name = "hmt-backend-native"
 homepage = "https://hummanta.github.io/hmt-backend-native"
 repository = "https://github.com/hummanta/hmt-backend-native"
 description = "Compile Cranelift IR into native machine code by auto-detecting the host architecture"
-language = "*"
 kind = "backend"
 
 targets = [
