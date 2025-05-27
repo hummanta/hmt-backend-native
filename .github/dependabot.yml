@@ -11,6 +11,11 @@ updates:
       interval: "weekly"
     labels:
       - "dependencies"
+    groups:
+      cranelift:
+        patterns:
+          - cranelift
+          - cranelift-reader
 
   - package-ecosystem: "github-actions"
     directory: "/"

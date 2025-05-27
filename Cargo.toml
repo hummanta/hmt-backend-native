@@ -1,11 +1,11 @@
 [package]
 name = "hmt-backend-native"
 description = "Compile Cranelift IR into native machine code by auto-detecting the host architecture"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 
 [dependencies]
 anyhow = "1.0.98"
 clap = { version = "4.5.38", features = ["derive", "env"] }
-cranelift = { version = "0.119.0", features = ["module", "object", "native"] }
-cranelift-reader = "0.119.0"
+cranelift = { version = "0.120.0", features = ["module", "object", "native"] }
+cranelift-reader = "0.120.0"
