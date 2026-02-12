@@ -6,6 +6,6 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.101"
-clap = { version = "4.5.56", features = ["derive", "env"] }
+clap = { version = "4.5.58", features = ["derive", "env"] }
 cranelift = { version = "0.128.3", features = ["module", "object", "native"] }
 cranelift-reader = "0.128.3"
