@@ -1,0 +1,21 @@
+version = "v0.1.17"
+
+[artifacts.x86_64-pc-windows-msvc]
+url = "https://github.com/hummanta/hmt-backend-native/releases/download/v0.1.17/hmt-backend-native-v0.1.17-x86_64-pc-windows-msvc.tar.gz"
+hash = "c0ba8b335fe355513448e2b19e99c6152986dc201c690492fca125c936aaf61e"
+
+[artifacts.aarch64-unknown-linux-gnu]
+url = "https://github.com/hummanta/hmt-backend-native/releases/download/v0.1.17/hmt-backend-native-v0.1.17-aarch64-unknown-linux-gnu.tar.gz"
+hash = "ef1aacc42d830df36a2660f1bccd63338fa36e79fe29d424200235fe4d973d86"
+
+[artifacts.x86_64-apple-darwin]
+url = "https://github.com/hummanta/hmt-backend-native/releases/download/v0.1.17/hmt-backend-native-v0.1.17-x86_64-apple-darwin.tar.gz"
+hash = "06c47622cabfbfb320760d402a073ddde3ed6f069ce891dc7f0c8f9314839f1a"
+
+[artifacts.x86_64-unknown-linux-gnu]
+url = "https://github.com/hummanta/hmt-backend-native/releases/download/v0.1.17/hmt-backend-native-v0.1.17-x86_64-unknown-linux-gnu.tar.gz"
+hash = "a10f8191681d6adf060749bc88f59948caa1a69c614dddafe9d8140d3739fd48"
+
+[artifacts.aarch64-apple-darwin]
+url = "https://github.com/hummanta/hmt-backend-native/releases/download/v0.1.17/hmt-backend-native-v0.1.17-aarch64-apple-darwin.tar.gz"
+hash = "963f3c79c6e3d9d32247d6f7e6c2902c280d73a9b786dbc532ffad9f9c9fd176"
